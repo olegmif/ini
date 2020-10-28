@@ -1,11 +1,13 @@
-import React from 'react'
+import React, {Fragment} from 'react'
 import Editor from './Editor'
+import FilesList from './FilesList'
 
 const App = () => {
   return (
-    <div>      
+    <Fragment>
+      <FilesList />
       <Editor />
-    </div>
+    </Fragment>
   );
 }
 
